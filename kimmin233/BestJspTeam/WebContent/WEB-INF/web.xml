@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns="http://java.sun.com/xml/ns/javaee" version="2.5">
+	<servlet>
+		<servlet-name>team-java</servlet-name>
+		<servlet-class>TeamJava</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>team-java</servlet-name>
+		<url-pattern>/teamDAMIN</url-pattern>
+	</servlet-mapping>
+</web-app>
